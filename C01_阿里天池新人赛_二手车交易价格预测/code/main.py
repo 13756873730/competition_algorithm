@@ -50,5 +50,4 @@ if __name__ == '__main__':
 
     pandas_data['SaleID'] = pandas_data['SaleID'] + 50000
     pandas_data['price'] = y_predict
-    pandas_data['price'] = pandas_data['price'].astype('int')
     pandas_data.to_csv('../data/used_car_sample_submit.csv', index=False)
